@@ -1,5 +1,5 @@
-import { fetchJSON, contentURL } from "@/lib/content";
-import { getUserEntitlements, canViewCourse } from "@/lib/entitlements";
+import { fetchJSON, contentURL } from "../../../lib/content";
+import { getUserEntitlements, canViewCourse } from "../../../lib/entitlements";
 
 type Manifest = {
   course_id: string;
