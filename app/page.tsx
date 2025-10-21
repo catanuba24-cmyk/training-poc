@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { fetchJSON, contentURL } from "../../lib/content";
-import { getUserEntitlements, canViewCourse } from "../../lib/entitlements";
+import { fetchJSON, contentURL } from "../lib/content";
+import { getUserEntitlements } from "../lib/entitlements";
 
 type Course = {
   id: string;
